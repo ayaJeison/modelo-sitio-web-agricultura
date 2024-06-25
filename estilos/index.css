@@ -19,15 +19,20 @@ header {
     display: flex;
     align-items: center;
     height: 70px;
-    justify-content: center;
+    justify-content: space-between;
     z-index: 3;
+    padding: 0 5%;
+    box-sizing: border-box;
 }
-
+.carrito{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.carrito:hover{
+    color: #82954B;
+}
 .logo {
     height: 49px;
-    position: absolute;
-    left: 5%;
-    top: 10px;
 }
 
 nav {
@@ -131,4 +136,8 @@ ol > li:hover{
 .boton:hover{
     background-color: white;
     color: #82954B;
+}
+
+.productos{
+    position: relative;
 }
